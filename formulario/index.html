@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="reg">
+      <form action="conexion.php" method="POST">
+        <p> Nombre </p>
+        <label for="nombre">Introduzca su nombre</label>
+        <br>
+        <input type="text" name="nombre" placeholder="pon tu nombre" required>
+        <p>Correo<p>
+          <label for="correo">Introduzca su direccion de correo electronico</label>
+          <br>
+          <input type="correo" name="correo" placeholder="alguien@correo.com" required>
+          <p> Sugerencias </p>
+          <label for="sugerencias">Sugerencias: </label>
+          <br>
+          <textarea name="sugerencias" placeholder="sugerencias:" required></textarea>
+          <br>
+          <br>
+          <input type="submit" value="Listo">
+        </form>
+      </div>
+  </body>
+
+</html>
